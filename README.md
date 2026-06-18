@@ -1,28 +1,70 @@
 # IRS LLC Deadline Calculator
 
-Free educational calculator for estimating key IRS dates for a foreign-owned U.S. LLC, including:
+Calculadora gratuita y de código abierto para **estimar fechas clave del IRS** de una LLC de EE. UU. de dueño extranjero. Es una herramienta estática (HTML, CSS y JavaScript en un solo archivo), sin dependencias ni backend: se abre en cualquier navegador.
 
-- Form 5472
-- Pro forma Form 1120
-- Form 7004 extension deadline
-- Estimated extended filing date
+Estima:
 
-Live website version:
+- Fecha de **Form 5472** con **pro forma Form 1120**.
+- Fecha límite para solicitar extensión con **Form 7004**.
+- Fecha extendida estimada cuando aplica la extensión de seis meses.
+
+## Versión online
+
+Puedes usar la calculadora online aquí:
 
 https://bookkeepingaldia.com/calculadora-fechas-irs-llc-extranjera/
 
-Created by BookkeepingAlDia:
+## Para quién sirve
 
-https://bookkeepingaldia.com/
+- Dueños de una LLC de EE. UU. de dueño extranjero (*foreign-owned, single-member LLC*).
+- No residentes que necesitan ubicar sus fechas de presentación ante el IRS.
+- Cualquier persona que quiera estimar plazos antes de confirmarlos con un preparador fiscal.
 
-## Important Notice
+## Variables que toma en cuenta
 
-This tool is for educational purposes only. It does not replace tax, legal, or accounting advice. IRS dates may change because of weekends, federal holidays, fiscal year rules, entity classification, or specific taxpayer facts.
+- **Año fiscal** de la LLC.
+- **Mes de cierre fiscal**.
+- Si se piensa solicitar **extensión** con Form 7004.
 
-## Official References
+Los detalles del cálculo y sus límites están en [metodologia.md](metodologia.md).
 
-- IRS Instructions for Form 5472: https://www.irs.gov/instructions/i5472
-- IRS About Form 5472: https://www.irs.gov/forms-pubs/about-form-5472
-- IRS About Form 7004: https://www.irs.gov/forms-pubs/about-form-7004
-- IRS Instructions for Form 1120: https://www.irs.gov/instructions/i1120
+## Uso local
 
+No requiere instalación. Tienes dos opciones:
+
+1. **Abrir el archivo directamente:** haz doble clic en `index.html`.
+2. **Servidor local:**
+
+   ```bash
+   python -m http.server 8000
+   ```
+
+   Luego abre `http://localhost:8000` en tu navegador.
+
+## Descargar o clonar
+
+```bash
+git clone https://github.com/<tu-usuario>/irs-llc-deadline-calculator.git
+cd irs-llc-deadline-calculator
+```
+
+O descarga el repositorio como ZIP desde GitHub con el botón **Code → Download ZIP**.
+
+## Aviso importante
+
+Esta herramienta ofrece una **estimación educativa** y **no sustituye asesoría fiscal, legal ni contable**. Las fechas del IRS pueden cambiar por fines de semana, feriados federales, reglas de año fiscal, clasificación de la entidad o circunstancias particulares del contribuyente. Solo ajusta fines de semana; no valida todos los feriados federales. Confirma siempre con un preparador fiscal antes de presentar.
+
+## Fuentes oficiales
+
+- [IRS: Instructions for Form 5472](https://www.irs.gov/instructions/i5472)
+- [IRS: About Form 5472](https://www.irs.gov/forms-pubs/about-form-5472)
+- [IRS: About Form 7004](https://www.irs.gov/forms-pubs/about-form-7004)
+- [IRS: Instructions for Form 1120](https://www.irs.gov/instructions/i1120)
+
+## Créditos
+
+Desarrollada y mantenida por [Bookkeeping al Día](https://bookkeepingaldia.com/).
+
+## Licencia
+
+Distribuida bajo licencia [MIT](LICENSE).
