@@ -8,11 +8,11 @@ Estima:
 - Fecha límite para solicitar extensión con **Form 7004**.
 - Fecha extendida estimada cuando aplica la extensión de seis meses.
 
-## Versión online
+## Más recursos
 
-Puedes usar la calculadora online aquí:
+Encuentra más herramientas y contenido sobre contabilidad para LLC en:
 
-https://bookkeepingaldia.com/calculadora-fechas-irs-llc-extranjera/
+https://bookkeepingaldia.com/
 
 ## Para quién sirve
 
