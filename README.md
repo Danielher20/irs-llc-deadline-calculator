@@ -44,7 +44,7 @@ No requiere instalación. Tienes dos opciones:
 ## Descargar o clonar
 
 ```bash
-git clone https://github.com/<tu-usuario>/irs-llc-deadline-calculator.git
+git clone https://github.com/Danielher20/irs-llc-deadline-calculator.git
 cd irs-llc-deadline-calculator
 ```
 
